@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manas Muddam — Computation & Media</title>
+  <meta name="description" content="Portfolio of Manas Muddam, a Computation & Media student exploring technology, design, storytelling and interactive experiences.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Manas Muddam — Computation & Media">
+  <meta property="og:description" content="Portfolio of Manas Muddam, a Computation & Media student exploring technology, design, storytelling and interactive experiences.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/favicon/og-image.png"> <!-- placeholder -->
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+  
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css?v=4">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav" id="nav">
+  <div class="nav__container">
+    <a href="#hero" class="nav__logo">Manas Muddam</a>
+    <ul class="nav__links">
+      <li><a href="#about" class="nav__link" data-section="about">About</a></li>
+      <li><a href="#experience" class="nav__link" data-section="experience">Experience</a></li>
+      <li><a href="#work" class="nav__link" data-section="work">Projects</a></li>
+      <li><a href="#skills" class="nav__link" data-section="skills">Skills</a></li>
+      <li><a href="#contact" class="nav__link" data-section="contact">Contact</a></li>
+      <li><a href="assets/resume/Manas_Resume new.pdf" class="nav__resume-btn" target="_blank" rel="noopener">Resume</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="#about" class="nav__link">About</a>
+  <a href="#experience" class="nav__link">Experience</a>
+  <a href="#work" class="nav__link">Projects</a>
+  <a href="#skills" class="nav__link">Skills</a>
+  <a href="#contact" class="nav__link">Contact</a>
+  <a href="assets/resume/Manas_Resume new.pdf" class="nav__resume-btn" target="_blank" rel="noopener">Resume</a>
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero" id="hero">
+  <div class="hero__container">
+    <p class="hero__label" data-reveal="fade-in">Portfolio 2026</p>
+    <h1 class="hero__name" data-reveal="fade-up">Manas Muddam</h1>
+    <p class="hero__subtitle" data-reveal="fade-up" data-delay="100">Computation & Media</p>
+    <p class="hero__statement" data-reveal="fade-up" data-delay="200">I build visual experiences where technology meets storytelling.</p>
+    <p class="hero__description" data-reveal="fade-up" data-delay="300">Computation & Media student working across design, filmmaking, 3D, VFX, interactive media and creative technology.</p>
+    <div class="hero__actions" data-reveal="fade-up" data-delay="400">
+      <a href="#work" class="btn btn--primary">View Projects</a>
+      <a href="assets/resume/Manas_Resume new.pdf" class="btn btn--secondary" target="_blank" rel="noopener">Download Resume</a>
+    </div>
+    <div class="hero__meta" data-reveal="fade-up" data-delay="500">
+      <div class="hero__meta-item">
+        <p class="hero__meta-label">Location</p>
+        <p class="hero__meta-value">Hyderabad, India</p>
+      </div>
+      <div class="hero__meta-item">
+        <p class="hero__meta-label">Program</p>
+        <p class="hero__meta-value">Computation & Media</p>
+      </div>
+      <div class="hero__meta-item">
+        <p class="hero__meta-label">University</p>
+        <p class="hero__meta-value">Mahindra University</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <span class="hero__scroll-text">Scroll</span>
+    <span class="hero__scroll-line"></span>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="about__heading" data-reveal="fade-up">A little about me.</h2>
+    <div class="about__content">
+      <div class="about__text" data-reveal="fade-up" data-delay="100">
+        <p>I'm Manas — a Computation & Media student at Mahindra University with a deep interest in where technology and creative expression intersect.</p>
+        <p>My work spans filmmaking, 3D environments, VFX, motion graphics, interactive media and brand design. I enjoy the process of building things — whether that's crafting a visual narrative, constructing a 3D world, developing a game prototype, or shaping a brand identity.</p>
+        <p>I work with tools like Unreal Engine, Unity, Blender, Adobe Creative Suite, Figma, Framer and Canva — alongside programming in Python and C. What drives me is the challenge of combining creative thinking with technical execution.</p>
+      </div>
+      <div class="about__visual" data-reveal="fade-up" data-delay="200">
+        <!-- Reserved for future portrait or visual element -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYWORD MARQUEE -->
+<div class="keyword-marquee" data-reveal="fade-in">
+  <div class="keyword-marquee__track">
+    <span class="keyword-marquee__item">Film</span>
+    <span class="keyword-marquee__item">Design</span>
+    <span class="keyword-marquee__item">3D</span>
+    <span class="keyword-marquee__item">VFX</span>
+    <span class="keyword-marquee__item">Interactive</span>
+    <span class="keyword-marquee__item">Branding</span>
+    <span class="keyword-marquee__item">Creative Technology</span>
+    <!-- Duplicate for seamless loop -->
+    <span class="keyword-marquee__item">Film</span>
+    <span class="keyword-marquee__item">Design</span>
+    <span class="keyword-marquee__item">3D</span>
+    <span class="keyword-marquee__item">VFX</span>
+    <span class="keyword-marquee__item">Interactive</span>
+    <span class="keyword-marquee__item">Branding</span>
+    <span class="keyword-marquee__item">Creative Technology</span>
+  </div>
+</div>
+
+<!-- EXPERIENCE SECTION -->
+<section class="section section--alt" id="experience">
+  <div class="container">
+    <h2 class="experience__heading" data-reveal="fade-up">Experience</h2>
+    <div class="timeline">
+      <!-- Mihira Visual Labs -->
+      <div class="timeline__item" data-reveal="fade-up">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <h3 class="timeline__company">Mihira Visual Labs</h3>
+          <p class="timeline__role">Summer Intern — Animatic & After Effects</p>
+          <p class="timeline__meta">Hyderabad &middot; July 2026 – August 2026</p>
+          <p class="timeline__description">Worked on ideation, storyboard, animatic and sound design for promotional content for the animated series "Baahubali: The Eternal War."</p>
+        </div>
+      </div>
+      <!-- Angelic NGO -->
+      <div class="timeline__item" data-reveal="fade-up" data-delay="200">
+        <div class="timeline__marker"></div>
+        <div class="timeline__content">
+          <h3 class="timeline__company">Angelic NGO</h3>
+          <p class="timeline__role">Graphic Designer — Social Sensitization Internship</p>
+          <p class="timeline__meta">Hyderabad &middot; June 2025 – July 2025</p>
+          <p class="timeline__description">Designed social media creatives and awareness posters and assisted in digital campaigns promoting adoption and animal welfare.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="work__header" data-reveal="fade-up">
+      <h2 class="work__heading">Projects</h2>
+      <p class="work__subheading">A selection of visual, cinematic and interactive work.</p>
+    </div>
+
+    <!-- Chapter 01: FILMMAKING -->
+    <div class="projects__category">
+      <div class="projects__category-header" data-reveal="fade-up">
+        <h3 class="projects__category-title">
+          <span class="projects__category-index">01</span>
+          <span class="projects__category-sep">/</span>
+          <span>Filmmaking</span>
+        </h3>
+        <span class="projects__category-count">2 Projects</span>
+      </div>
+      <div class="work__grid">
+        <!-- Project 01: Baigan Ka Dil -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="work/baigan-ka-dil/" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/baigan-ka-dil/yellow-poster.png"
+                alt="Baigan Ka Dil — Short Film Yellow Poster"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">01</span>
+                <h3 class="work__project-title">Baigan Ka Dil</h3>
+                <p class="work__project-category">SHORT FILM / CO-DIRECTION / VFX / MOTION DESIGN / PROMOTIONAL DESIGN</p>
+                <p class="work__project-description">A narrative short film produced under the 7 Screens banner at Mahindra University. Co-direction, VFX, motion design, and promotional campaign rollout.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 02: Drama Kaiku Mama -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100">
+          <a href="projects/drama-kaiku-mama.html" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/drama-kaiku-mama/01-dkm-poster.png"
+                alt="Drama Kaiku Mama — Short Film Poster and Creative Direction"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">02</span>
+                <h3 class="work__project-title">Drama Kaiku Mama</h3>
+                <p class="work__project-category">Short Film / Creative Direction</p>
+                <p class="work__project-description">Short film project exploring stylized narrative direction, neon visual tone, and creative production design.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+      </div>
+    </div>
+
+    <!-- Chapter 02: ANIMATION, 3D & GAME DESIGN -->
+    <div class="projects__category">
+      <div class="projects__category-header" data-reveal="fade-up">
+        <h3 class="projects__category-title">
+          <span class="projects__category-index">02</span>
+          <span class="projects__category-sep">/</span>
+          <span>Animation, 3D &amp; Game Design</span>
+        </h3>
+        <span class="projects__category-count">4 Projects</span>
+      </div>
+      <div class="work__grid">
+        <!-- Project 03: Dholavira 3D (FEATURE - sole feature project, spans 2 columns) -->
+        <article class="work__project work__project--feature" data-reveal="fade-up">
+          <a href="work/dholavira/" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/dholavira/01-aerial-overview.png"
+                alt="Dholavira 3D — aerial overview of the reconstructed ancient Harappan city"
+                loading="eager">
+              <div class="work__project-overlay">
+                <span class="work__project-number">03</span>
+                <h3 class="work__project-title">Dholavira 3D</h3>
+                <p class="work__project-category">3D / Environment / Interactive Media</p>
+                <p class="work__project-description">A 3D reconstruction of the ancient archaeological site of Dholavira, exploring environment design, modular assets, lighting and cinematic presentation.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 04: Fallen Grace -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100">
+          <a href="projects/fallen-grace.html" class="work__project-link">
+            <div class="work__project-visual work__project-visual--video">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/fallen-grace/01-fallen-grace.png"
+                alt="Fallen Grace — 3D Animated Short Film"
+                loading="lazy">
+              <video
+                class="work__project-video"
+                muted
+                loop
+                playsinline
+                preload="none"
+                aria-hidden="true">
+                <!-- Local video source will be placed here -->
+              </video>
+              <div class="work__project-video-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="work__project-video-icon"><polygon points="7 4 19 12 7 20 7 4"></polygon></svg>
+                <span>3D Animation</span>
+              </div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">04</span>
+                <h3 class="work__project-title">Fallen Grace</h3>
+                <p class="work__project-category">Animation / 3D / Film</p>
+                <p class="work__project-description">A collaborative 3D animated short film created as coursework at Mahindra University using Unreal Engine, involving 3D modeling, animation, sound design, editing, and production.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 05: 3D Simulation Studies -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="projects/3d-simulation-studies.html" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/3d-simulation-studies/01-dune-render.png"
+                alt="3D Simulation Studies — Dynamic desert dune simulation and lighting"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">05</span>
+                <h3 class="work__project-title">3D Simulation Studies</h3>
+                <p class="work__project-category">3D / Simulation / Environments</p>
+                <p class="work__project-description">Technical explorations in dynamic landscape simulation, atmospheric lighting, and environment rendering in Blender and Unreal Engine.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 06: Hoppy Antler -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100">
+          <a href="projects/hoppy-antler.html" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/hoppy-antler/01-hoppy-banner.png"
+                alt="Hoppy Antler — 3D Road-Crossing Survival Game"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">06</span>
+                <h3 class="work__project-title">Hoppy Antler</h3>
+                <p class="work__project-category">GAME DESIGN / 3D / INTERACTIVE</p>
+                <p class="work__project-description">A 3D road-crossing survival game featuring a courageous young deer navigating busy highways, speeding vehicles, and wilderness obstacles.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+      </div>
+    </div>
+
+    <!-- Chapter 03: VFX & MOTION -->
+    <div class="projects__category">
+      <div class="projects__category-header" data-reveal="fade-up">
+        <h3 class="projects__category-title">
+          <span class="projects__category-index">03</span>
+          <span class="projects__category-sep">/</span>
+          <span>VFX &amp; Motion</span>
+        </h3>
+        <span class="projects__category-count">4 Projects</span>
+      </div>
+      <div class="work__grid">
+        <!-- Project 07: VFX Compositing Reel -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="projects/vfx-compositing.html" class="work__project-link">
+            <div class="work__project-visual work__project-visual--video">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/vfx-compositing/01-vfx-comp.png"
+                alt="VFX Compositing Reel — Multi-layer live-action integration"
+                loading="lazy">
+              <video
+                class="work__project-video"
+                muted
+                loop
+                playsinline
+                preload="none"
+                aria-hidden="true">
+                <!-- Local video source will be placed here -->
+              </video>
+              <div class="work__project-video-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="work__project-video-icon"><polygon points="7 4 19 12 7 20 7 4"></polygon></svg>
+                <span>VFX Breakdown</span>
+              </div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">07</span>
+                <h3 class="work__project-title">VFX Compositing Reel</h3>
+                <p class="work__project-category">VFX / Compositing / Post-Production</p>
+                <p class="work__project-description">Multi-layer live-action integration, digital environment set extensions, matte painting, and post-production compositing.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 08: Wipes & Digital Ageing -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100">
+          <a href="projects/wipes-digital-ageing.html" class="work__project-link">
+            <div class="work__project-visual work__project-visual--video">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/wipes-digital-ageing/01-wipe.png"
+                alt="Wipes & Digital Ageing — Seamless narrative transitions"
+                loading="lazy">
+              <video
+                class="work__project-video"
+                muted
+                loop
+                playsinline
+                preload="none"
+                aria-hidden="true">
+                <!-- Local video source will be placed here -->
+              </video>
+              <div class="work__project-video-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="work__project-video-icon"><polygon points="7 4 19 12 7 20 7 4"></polygon></svg>
+                <span>VFX Breakdown</span>
+              </div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">08</span>
+                <h3 class="work__project-title">Wipes &amp; Digital Ageing</h3>
+                <p class="work__project-category">VFX / Transitions / Digital Ageing</p>
+                <p class="work__project-description">Complex narrative screen wipes, digital cosmetic ageing, and seamless transition techniques for cinematic storytelling.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 09: Atmosphere & CG Matching -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="projects/atmosphere-cg-matching.html" class="work__project-link">
+            <div class="work__project-visual work__project-visual--video">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/atmosphere-cg-matching/01-atmosphere.png"
+                alt="Atmosphere & CG Matching — Volumetric lighting and plate integration"
+                loading="lazy">
+              <video
+                class="work__project-video"
+                muted
+                loop
+                playsinline
+                preload="none"
+                aria-hidden="true">
+                <!-- Local video source will be placed here -->
+              </video>
+              <div class="work__project-video-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="work__project-video-icon"><polygon points="7 4 19 12 7 20 7 4"></polygon></svg>
+                <span>VFX Breakdown</span>
+              </div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">09</span>
+                <h3 class="work__project-title">Atmosphere &amp; CG Matching</h3>
+                <p class="work__project-category">VFX / Lighting / CG Integration</p>
+                <p class="work__project-description">Volumetric atmospheric effects, photorealistic CG-to-plate lighting matching, and cinematic color integration.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 10: Motion Graphics & Renders -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100">
+          <a href="projects/motion-graphics-renders.html" class="work__project-link">
+            <div class="work__project-visual work__project-visual--video">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/motion-graphics-renders/01-motion-render.png"
+                alt="Motion Graphics & Renders — Broadcast motion design and title sequences"
+                loading="lazy">
+              <video
+                class="work__project-video"
+                muted
+                loop
+                playsinline
+                preload="none"
+                aria-hidden="true">
+                <!-- Local video source will be placed here -->
+              </video>
+              <div class="work__project-video-badge" aria-hidden="true">
+                <svg viewBox="0 0 24 24" class="work__project-video-icon"><polygon points="7 4 19 12 7 20 7 4"></polygon></svg>
+                <span>Motion Reel</span>
+              </div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">10</span>
+                <h3 class="work__project-title">Motion Graphics &amp; Renders</h3>
+                <p class="work__project-category">Motion Graphics / Title Design / 3D Renders</p>
+                <p class="work__project-description">Stylized title sequences, animated credit treatments, and broadcast motion design systems.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+      </div>
+    </div>
+
+    <!-- Chapter 04: DESIGN & BRANDING -->
+    <div class="projects__category projects__category--design">
+      <div class="projects__category-header" data-reveal="fade-up">
+        <h3 class="projects__category-title">
+          <span class="projects__category-index">04</span>
+          <span class="projects__category-sep">/</span>
+          <span>Design &amp; Branding</span>
+        </h3>
+        <span class="projects__category-count">2 Projects</span>
+      </div>
+      <div class="work__grid">
+        <!-- Project 11: COXIST AI -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="projects/coxist.html" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/coxist/coxist-card.jpg"
+                alt="COXIST AI — Freelance Branding &amp; Visual Identity"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">11</span>
+                <h3 class="work__project-title">COXIST AI</h3>
+                <p class="work__project-category">Freelance Branding / Visual Identity</p>
+                <p class="work__project-description">Brand identity system, logo mark architecture, and multi-surface applications for an AI-powered Gen Z learning platform.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 12: Campus Crave (Temporarily Hidden) -->
+        <article class="work__project" data-reveal="fade-up" data-delay="100" style="display: none;">
+          <a href="projects/campus-crave.html" class="work__project-link">
+            <div class="work__project-visual">
+              <div class="work__project-placeholder work__project-placeholder--crave"></div>
+              <div class="work__project-overlay">
+                <span class="work__project-number">12</span>
+                <h3 class="work__project-title">Campus Crave</h3>
+                <p class="work__project-category">UI/UX / Product Design</p>
+                <p class="work__project-description">Mobile app design and user experience framework for campus dining, ordering, and community engagement.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+
+        <!-- Project 13: Aether -->
+        <article class="work__project" data-reveal="fade-up">
+          <a href="work/aether/" class="work__project-link">
+            <div class="work__project-visual">
+              <img
+                class="work__project-img"
+                src="assets/images/projects/aether/aether-hero.jpg"
+                alt="Aether 2026 — Design Head, Annual Cultural Festival"
+                loading="lazy">
+              <div class="work__project-overlay">
+                <span class="work__project-number">13</span>
+                <h3 class="work__project-title">Aether 2026</h3>
+                <p class="work__project-category">Design Head / Event Identity</p>
+                <p class="work__project-description">Brand identity, merchandise design, and multi-channel event collateral for Mahindra University's annual cultural festival.</p>
+              </div>
+            </div>
+            <span class="work__project-arrow">&#8599;</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <h2 class="skills__heading" data-reveal="fade-up">Skills</h2>
+    <div class="skills__groups">
+      <div class="skills__group" data-reveal="fade-up">
+        <h3 class="skills__group-title">Creative</h3>
+        <ul class="skills__list">
+          <li class="skills__item">Visual Storytelling</li>
+          <li class="skills__item">Filmmaking</li>
+          <li class="skills__item">VFX</li>
+          <li class="skills__item">Motion Graphics</li>
+          <li class="skills__item">Graphic Design</li>
+          <li class="skills__item">Branding</li>
+          <li class="skills__item">Photography</li>
+        </ul>
+      </div>
+      <div class="skills__group" data-reveal="fade-up" data-delay="100">
+        <h3 class="skills__group-title">3D & Interactive</h3>
+        <ul class="skills__list">
+          <li class="skills__item">Blender</li>
+          <li class="skills__item">Unreal Engine</li>
+          <li class="skills__item">Unity</li>
+        </ul>
+      </div>
+      <div class="skills__group" data-reveal="fade-up" data-delay="200">
+        <h3 class="skills__group-title">Design</h3>
+        <ul class="skills__list">
+          <li class="skills__item">Adobe Creative Suite</li>
+          <li class="skills__item">Figma</li>
+          <li class="skills__item">Affinity</li>
+          <li class="skills__item">Canva</li>
+          <li class="skills__item">Framer</li>
+        </ul>
+      </div>
+      <div class="skills__group" data-reveal="fade-up" data-delay="300">
+        <h3 class="skills__group-title">Computational</h3>
+        <ul class="skills__list">
+          <li class="skills__item">Python</li>
+          <li class="skills__item">C Programming</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS & EDUCATION -->
+<section class="section" id="achievements">
+  <div class="container">
+    <h2 class="achievements__heading" data-reveal="fade-up">Leadership & Achievements</h2>
+    <div class="achievements__list">
+      <div class="achievements__item" data-reveal="fade-up">
+        <h3 class="achievements__item-title">Design Head — Aether</h3>
+        <p class="achievements__item-detail">Mahindra University's Annual Cultural Fest, 2026</p>
+      </div>
+      <div class="achievements__item" data-reveal="fade-up" data-delay="100">
+        <h3 class="achievements__item-title">2nd Place — Enigma Game Jam</h3>
+        <p class="achievements__item-detail">Team Event, Mahindra University, 2024</p>
+      </div>
+      <div class="achievements__item" data-reveal="fade-up" data-delay="200">
+        <h3 class="achievements__item-title">Dean's List</h3>
+        <p class="achievements__item-detail">Mahindra University, 2025</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Education -->
+    <div id="education">
+      <div class="education__content" data-reveal="fade-up">
+        <div class="education__main">
+          <h3 class="education__degree">B.Tech — Computation & Media</h3>
+          <p class="education__university">Mahindra University</p>
+          <p class="education__date">2023 – Present</p>
+        </div>
+        <div class="education__coursework">
+          <p class="education__coursework-title">Relevant Coursework</p>
+          <ul class="education__coursework-list">
+            <li class="education__coursework-item">Visual Communication</li>
+            <li class="education__coursework-item">VFX</li>
+            <li class="education__coursework-item">Animation</li>
+            <li class="education__coursework-item">Media Production</li>
+            <li class="education__coursework-item">Game Design</li>
+            <li class="education__coursework-item">AR/VR</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <h2 class="contact__heading" data-reveal="fade-up">Let's build something interesting.</h2>
+    <p class="contact__description" data-reveal="fade-up" data-delay="100">Open to opportunities across creative technology, digital media, design, visual storytelling and interactive experiences.</p>
+    <div class="contact__links" data-reveal="fade-up" data-delay="200">
+      <a href="mailto:manasmuddam03@gmail.com" class="contact__link">
+        <p class="contact__link-label">Email</p>
+        <p class="contact__link-value">manasmuddam03@gmail.com</p>
+      </a>
+      <a href="https://www.linkedin.com/in/manas-m-2102782b1" class="contact__link" target="_blank" rel="noopener">
+        <p class="contact__link-label">LinkedIn</p>
+        <p class="contact__link-value">manas-m-2102782b1 &#8594;</p>
+      </a>
+      <a href="assets/resume/Manas_Resume new.pdf" class="contact__link" target="_blank" rel="noopener">
+        <p class="contact__link-label">Resume</p>
+        <p class="contact__link-value">Download PDF &#8594;</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <p class="footer__name">Manas Muddam</p>
+        <p class="footer__line">Computation & Media · Hyderabad, India</p>
+      </div>
+      <a href="#hero" class="footer__back-top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="js/data.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/projects.js?v=4"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
