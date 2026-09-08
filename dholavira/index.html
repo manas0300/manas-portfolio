@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dholavira — 3D Reconstruction & Immersive Experience — Manas Muddam</title>
+  <meta name="description" content="A 3D architectural and environmental reconstruction of the ancient Indus Valley metropolis of Dholavira, exploring urban planning, monumental stone architecture, and hydraulic engineering.">
+  <meta property="og:title" content="Dholavira — 3D Reconstruction — Manas Muddam">
+  <meta property="og:description" content="A 3D reconstruction of the ancient archaeological site of Dholavira, exploring environment design, modular assets, lighting, atmosphere and cinematic presentation using Unreal Engine and Blender.">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="../../assets/images/projects/dholavira/05-aerial-golden-hour.png">
+  
+  <link rel="icon" href="../../assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/sections.css">
+  <link rel="stylesheet" href="../../css/projects.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav class="nav nav--scrolled" id="nav">
+  <div class="nav__container">
+    <a href="../../index.html" class="nav__logo">Manas Muddam</a>
+    <ul class="nav__links">
+      <li><a href="../../index.html#about" class="nav__link">About</a></li>
+      <li><a href="../../index.html#experience" class="nav__link">Experience</a></li>
+      <li><a href="../../index.html#work" class="nav__link nav__link--active">Projects</a></li>
+      <li><a href="../../index.html#skills" class="nav__link">Skills</a></li>
+      <li><a href="../../index.html#contact" class="nav__link">Contact</a></li>
+      <li><a href="../../assets/resume/Manas_Muddam_Resume.pdf" class="nav__resume-btn" target="_blank" rel="noopener">Resume</a></li>
+    </ul>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="nav__mobile-menu" id="mobileMenu">
+  <a href="../../index.html#about" class="nav__link">About</a>
+  <a href="../../index.html#experience" class="nav__link">Experience</a>
+  <a href="../../index.html#work" class="nav__link">Projects</a>
+  <a href="../../index.html#skills" class="nav__link">Skills</a>
+  <a href="../../index.html#contact" class="nav__link">Contact</a>
+  <a href="../../assets/resume/Manas_Muddam_Resume.pdf" class="nav__resume-btn" target="_blank" rel="noopener">Resume</a>
+</div>
+
+<!-- MAIN CASE STUDY -->
+<main class="project-detail">
+
+  <!-- A. HERO: PRIMARY CINEMATIC MEDIA (AUTOPLAY MUTED VIDEO W/ FALLBACK) -->
+  <section class="dh-hero" id="hero">
+    <div class="dh-hero__media">
+      <video
+        class="dh-hero__video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        poster="../../assets/images/projects/dholavira/05-aerial-golden-hour.png">
+        <source src="../../assets/videos/projects/dholavira-hero.mp4" type="video/mp4">
+        <img
+          src="../../assets/images/projects/dholavira/05-aerial-golden-hour.png"
+          alt="Dholavira 3D Reconstruction — Aerial golden hour render">
+      </video>
+    </div>
+    <div class="dh-hero__content">
+      <div class="container">
+        <span class="dh-hero__eyebrow" data-reveal="fade-in">2026 &middot; 3D Reconstruction &middot; Immersive Experience</span>
+        <h1 class="dh-hero__title" data-reveal="fade-up">DHOLAVIRA</h1>
+        <p class="dh-hero__sub" data-reveal="fade-up" data-delay="100">Computational Media &middot; Mahindra University</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- B. PROJECT INTRODUCTION & CONTEXT -->
+  <section class="dh-section dh-intro">
+    <div class="container">
+      <a href="../../index.html#work" class="project-detail__back" data-reveal="fade-in">&larr; Back to Projects</a>
+      
+      <div class="dh-intro__grid" data-reveal="fade-up">
+        <div class="dh-intro__left">
+          <span class="dh-label">Context &amp; Intention</span>
+          <p class="dh-intro__lead">
+            A computational reconstruction translating the archaeological footprint of an ancient Indus Valley metropolis into a realtime, navigable 3D environment.
+          </p>
+        </div>
+        <div class="dh-intro__right dh-body">
+          <p>
+            Dholavira, situated on the island of Khadir Bet in the Great Rann of Kutch, represents one of the most sophisticated urban settlements of the Harappan civilization. Unlike contemporary sites built primarily from fired brick, Dholavira was constructed from massive dressed stone and mud-brick, fortified with monumental perimeter walls and an extraordinary network of rainwater reservoirs.
+          </p>
+          <p>
+            This project reconstructs the fortified settlement in 3D using Unreal Engine and Blender. The intention behind the reconstruction is experiential: moving beyond flat archaeological schematics and static diagrams to explore how spatial visualization, material authenticity, and atmospheric lighting can communicate the scale, volume, and civil ingenuity of ancient urban planning.
+          </p>
+          <p>
+            By grounding archaeological research in real-time 3D environments, the project demonstrates how computational media bridges the gap between historical inquiry and immersive digital storytelling—allowing contemporary viewers to inhabit and understand an ancient urban system.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- C. THE RECONSTRUCTION & SPATIAL ORGANIZATION -->
+  <section class="dh-section">
+    <div class="container">
+      <div data-reveal="fade-up">
+        <span class="dh-label">01 / Spatial Reconstruction</span>
+        <h2 class="dh-heading">Tripartite City Planning &amp; Fortified Architecture</h2>
+        <div class="dh-body">
+          <p>
+            The reconstruction visualizes Dholavira's distinctive tripartite urban plan: a formidable Citadel (Castle and Bailey) occupying the highest vantage, an adjoining Middle Town with planned orthogonal streets and residential blocks, and an expansive Lower Town bounded within peripheral stone walls.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dominant aerial overview render -->
+    <div class="dh-full-bleed dh-full-bleed--cover" data-reveal="fade-in">
+      <img
+        src="../../assets/images/projects/dholavira/01-aerial-overview.png"
+        alt="Dholavira 3D — Full settlement overview showing the citadel, residential town, and surrounding stone reservoirs"
+        loading="lazy">
+      <div class="dh-full-bleed__caption">
+        Reconstructed settlement overview: spatial hierarchy, outer perimeter fortifications, and surrounding reservoir basins.
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Editorial split showing gateway and street organization -->
+      <div class="dh-split dh-split--flip" data-reveal="fade-up">
+        <div class="dh-split__text dh-body">
+          <p>
+            The environment was constructed using modular stone masonry assets designed to capture the rhythm of Harappan stonecraft—from thick ramparts and stepped bastions to ceremonial gateway portals and paved pathways.
+          </p>
+          <p>
+            Controlled entryways and elevated plazas reveal how spatial hierarchy governed daily movement, defense, and public gatherings within the ancient city.
+          </p>
+        </div>
+        <div class="dh-split__image">
+          <img
+            src="../../assets/images/projects/dholavira/02-aerial-lower-city.png"
+            alt="Dholavira 3D — Perspective view of citadel gateway, thoroughfare, and modular residential blocks"
+            loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- D. WATER SYSTEMS & HYDRAULIC INFRASTRUCTURE -->
+  <section class="dh-section">
+    <div class="container">
+      <div data-reveal="fade-up">
+        <span class="dh-label">02 / Hydraulic Engineering</span>
+        <h2 class="dh-heading">Massive Interconnected Step-Reservoirs</h2>
+        <div class="dh-body">
+          <p>
+            Surrounded by an arid landscape with scarce rainfall, Dholavira's survival depended upon what is recognized as one of the most sophisticated rainwater harvesting networks of the ancient world. Flanked by two seasonal monsoon streams—the Manhar and Mansar—the city engineered deep stone-cut reservoirs directly into its urban fabric.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full-bleed dominant water systems render -->
+    <div class="dh-full-bleed dh-full-bleed--cinematic" data-reveal="fade-in">
+      <img
+        src="../../assets/images/projects/dholavira/03-aerial-water-systems.png"
+        alt="Dholavira 3D — Monumental stone-cut step-reservoirs encircling the citadel battlements"
+        loading="lazy">
+      <div class="dh-full-bleed__caption">
+        Hydraulic infrastructure: Deep stone-cut reservoirs and inlet channels encircling the citadel ramparts.
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="dh-body" data-reveal="fade-up">
+        <p>
+          The 3D model reconstructs the colossal scale of these stone reservoirs, complete with inlet bunds, settling channels, and stepped embankments. In the reconstruction, water surfaces reflect desert light against massive stone retaining walls—illustrating how hydraulic utility and defensive fortifications were harmoniously integrated into a single civic system.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- E. IMMERSIVE WALKTHROUGH & GROUND-LEVEL EXPERIENCE -->
+  <section class="dh-section">
+    <div class="container">
+      <div data-reveal="fade-up">
+        <span class="dh-label">03 / Human Scale &amp; Atmosphere</span>
+        <h2 class="dh-heading">Inhabiting the Ancient Landscape</h2>
+        <div class="dh-body">
+          <p>
+            Transitioning from analytical aerial surveys to ground level shifts the perspective from cartographic observation to personal immersion. At human eye-height, the monumental scale of the masonry becomes tangible—the towering ramparts, deep reservoir depressions, and long stone thoroughfares establish a palpable sense of physical presence.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ground-level render -->
+    <div class="dh-full-bleed dh-full-bleed--cover" data-reveal="fade-in">
+      <img
+        src="../../assets/images/projects/dholavira/04-ground-level.png"
+        alt="Dholavira 3D — Ground-level perspective looking across the reservoir embankment toward the city walls and desert dunes"
+        loading="lazy">
+      <div class="dh-full-bleed__caption">
+        First-person perspective: Reservoir embankments, stone bastions, and atmospheric desert haze at human eye-level.
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="dh-body" data-reveal="fade-up">
+        <p>
+          Natural directional sunlight, atmospheric haze, and subtle desert dust ground the architectural geometry in its physical reality. The ground-level viewpoint demonstrates how 3D environment art transforms archaeological artifacts into living spatial narratives that can be directly experienced.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- G. PROJECT DETAILS -->
+  <section class="dh-section dh-details">
+    <div class="container">
+      <div class="dh-details__grid" data-reveal="fade-up">
+        <div class="dh-detail">
+          <p class="dh-detail__label">Project</p>
+          <p class="dh-detail__value">Dholavira 3D Reconstruction</p>
+        </div>
+        <div class="dh-detail">
+          <p class="dh-detail__label">Year</p>
+          <p class="dh-detail__value">2026</p>
+        </div>
+        <div class="dh-detail">
+          <p class="dh-detail__label">Discipline</p>
+          <p class="dh-detail__value">Computational Media / 3D Reconstruction / Immersive Experience</p>
+        </div>
+        <div class="dh-detail">
+          <p class="dh-detail__label">Tools &amp; Workflow</p>
+          <p class="dh-detail__value">Unreal Engine &middot; Blender</p>
+        </div>
+        <div class="dh-detail">
+          <p class="dh-detail__label">Focus</p>
+          <p class="dh-detail__value">Archaeological Reconstruction &middot; Spatial Visualization &middot; Immersive Storytelling</p>
+        </div>
+        <div class="dh-detail">
+          <p class="dh-detail__label">Institution</p>
+          <p class="dh-detail__value">Mahindra University</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- H. END NAVIGATION -->
+  <section class="dh-section">
+    <div class="container">
+      <div class="dh-end-nav" data-reveal="fade-up">
+        <a href="../../index.html#work" class="dh-end-nav__back">&larr; Back to Projects</a>
+        <a href="../../projects/fallen-grace.html" class="dh-end-nav__next">
+          <span class="dh-end-nav__next-label">Next Project</span>
+          <span class="dh-end-nav__next-title">Fallen Grace &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__info">
+        <p class="footer__name">Manas Muddam</p>
+        <p class="footer__line">Computation &amp; Media &middot; Hyderabad, India</p>
+      </div>
+      <a href="#hero" class="footer__back-top">Back to top &uarr;</a>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="../../js/data.js"></script>
+<script src="../../js/animations.js"></script>
+<script src="../../js/app.js"></script>
+
+<script>
+  // Optimized hero video viewport observer: pauses video when scrolled out of view
+  (function() {
+    const heroVideo = document.querySelector('.dh-hero__video');
+    if (heroVideo && 'IntersectionObserver' in window) {
+      const videoObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            heroVideo.play().catch(() => {});
+          } else {
+            heroVideo.pause();
+          }
+        });
+      }, { threshold: 0.1 });
+      videoObserver.observe(heroVideo);
+    }
+  })();
+</script>
+
+</body>
+</html>
